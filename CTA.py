@@ -28,7 +28,7 @@ TOLERANCIA_PADRAO = {"km": 300, "horimetro": 10}
 def encontrar_arquivo_txt():
     arquivos_txt = glob.glob("*.txt")
     if not arquivos_txt:
-        print("❌ Nenhum arquivo .txt encontrado no diretório.")
+        print("Nenhum arquivo .txt encontrado no diretório.")
         return None
     print(f"📄 Arquivo encontrado: {arquivos_txt[0]}")
     return arquivos_txt[0]
@@ -77,12 +77,12 @@ def analisar_abastecimentos(caminho_arquivo):
         if erros:
             df_erros = pd.DataFrame(erros)
             df_erros.to_excel(writer, sheet_name="Erros", index=False)
-            print(f"\n📤 Arquivo '{nome_arquivo}' gerado com aba de erros ({len(erros)} linhas).")
+            print(f"\n Arquivo '{nome_arquivo}' gerado com aba de erros ({len(erros)} linhas).")
         else:
-            print(f"\n📤 Arquivo '{nome_arquivo}' gerado sem erros detectados.")
+            print(f"\n Arquivo '{nome_arquivo}' gerado sem erros detectados.")
 
-    print(f"\n📊 Total de linhas processadas: {total_linhas}")
-    print(f"❗ Total de linhas com erro: {len(erros)}")
+    print(f"\n Total de linhas processadas: {total_linhas}")
+    print(f" Total de linhas com erro: {len(erros)}")
 
 # Executa o script
 arquivo = encontrar_arquivo_txt()
