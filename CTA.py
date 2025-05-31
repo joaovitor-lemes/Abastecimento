@@ -5,22 +5,22 @@ import pandas as pd
 
 # Tolerâncias por modelo
 TOLERANCIAS = {
-    "VW 24.280 Mec": {"km": 300, "horimetro": 10},
-    "Atego 2426": {"km": 200, "horimetro": 8},
-    "Atego 1719": {"km": 400, "horimetro": 12},
-    "TECTOR 24-280": {"km": 300, "horimetro": 10},
-    "Tector 24-320": {"km": 200, "horimetro": 8},
-    "Atego 2433": {"km": 400, "horimetro": 12},
-    "Atego 2429": {"km": 400, "horimetro": 12},
-    "VW 17.260 Mec.": {"km": 200, "horimetro": 8},
-    "VW 18.260": {"km": 400, "horimetro": 12},
-    "VW 24.260 Aut.": {"km": 400, "horimetro": 12},
-    "VW 24.260": {"km": 400, "horimetro": 12},
-    "VW 26.260": {"km": 400, "horimetro": 12},
-    "636D": {"km": 400, "horimetro": 12},
-    "416.0": {"km": 400, "horimetro": 12},
-    "VW 11.180": {"km": 400, "horimetro": 12},
-    "VW 17.210": {"km": 400, "horimetro": 12}
+    "VW 24.280 Mec": {"km": 300, "horimetro": 48},
+    "Atego 2426": {"km": 400, "horimetro": 48},
+    "Atego 1719": {"km": 400, "horimetro": 48},
+    "TECTOR 24-280": {"km": 300, "horimetro": 48},
+    "Tector 24-320": {"km": 200, "horimetro": 48},
+    "Atego 2433": {"km": 400, "horimetro": 48},
+    "Atego 2429": {"km": 400, "horimetro": 48},
+    "VW 17.260 Mec.": {"km": 300, "horimetro": 48},
+    "VW 18.260": {"km": 400, "horimetro": 48},
+    "VW 24.260 Aut.": {"km": 400, "horimetro": 48},
+    "VW 24.260": {"km": 400, "horimetro": 48},
+    "VW 26.260": {"km": 400, "horimetro": 48},
+    "636D": {"km": 400, "horimetro": 48},
+    "416.0": {"km": 400, "horimetro": 48},
+    "VW 11.180": {"km": 400, "horimetro": 48},
+    "VW 17.210": {"km": 400, "horimetro": 48}
 }
 
 TOLERANCIA_PADRAO = {"km": 300, "horimetro": 10}
