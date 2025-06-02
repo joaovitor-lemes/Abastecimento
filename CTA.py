@@ -23,7 +23,7 @@ TOLERANCIAS = {
     "VW 17.210": {"km": 400, "horimetro": 48}
 }
 
-TOLERANCIA_PADRAO = {"km": 300, "horimetro": 10}
+TOLERANCIA_PADRAO = {"km": 300, "horimetro": 30}
 
 def encontrar_arquivo_txt():
     arquivos_txt = glob.glob("*.txt")
